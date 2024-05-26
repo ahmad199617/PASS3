@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>İROŞ</title>
+        <link rel="icon" type="image" href="./images/download.png">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+        <script src="./home.js" defer></script> 
+    </head>
+    <body>
+        <header>
+
+          </header>
+
+          <main class="ma">
+            
+            <!-- <h1 class="h2x">HAPPY BIRTHDAY</h1> -->
+            <!-- <h1 class="h1x">TO THZ BAST ONE I KNOW IN MY LIFE HAPPY BIRTHDAY</h1> -->
+
+            <div class="xx">
+            <p class="text">İrem Karadeniz 1</p>
+
+            <center>
+               <input type="password" placeholder="BIG LETTER ONLY" id="tutorial">
+               <button onclick="protectpasscode()">MARKA</button>
+               <script>
+                  function protectpasscode() {
+                     const result = document.getElementById("tutorial").value;
+                     let passcode = "IREM";
+                     let space = '';
+                     if (result == space) {
+                        alert("Type passcode")
+                     } else {
+                        if (result == passcode) {
+                           window.location.replace("http://www.w3schools.com");
+                        } else {
+                           alert("Incorrect Passcode");
+                           location.reload();
+                        }
+                     }
+                  }
+               </script>
+            </center>
+
+        </div>
+          </main>
+    </body>
+</html>
